@@ -7,6 +7,7 @@ import Watch from './Watch';
 
 const VideoContainer = () => {
   const [videos, setVideos] = useState([]);
+  
   useEffect(() => {
     getVideos();
   }, [])
